@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+}
+#header{
+    width: 100%;
+	position: fixed;
+	z-index: 2;
+    background-color: darkblue;
+	
+}
+#menu-bar{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+#pemilik{
+    color: white;
+    padding: 10px;
+}
+#daftar-menu{
+    display: inline-flex;
+}
+.menu{
+    padding: 10px;
+    list-style: none;
+    width: 140px;
+    text-align: center;
+}
+.menu:hover{
+    background: yellow;
+}
+#daftar-artikel{
+    display: none;
+}
+#open-artikel:hover #daftar-artikel{
+    display: block;
+}
+.sub-artikel:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    
+    
+}
+.sub-artikel{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 15px;
+}
+.kontent{
+    width: 100%;
+    height: 1000px;
+    background-color: gray;
+    display: flex;
+}
+#kotak{
+	width: 30%;
+	height: 8000px;
+	background-color: aqua;
+}
+#halaman{
+	width: 70%;
+	height: 8000px;
+	background-color: gray;
+	display: flex;
+	
+}
+#wildo{
+	width: 50%;
+	height: 400px;
+	background-color:orange;
+}
+#faldi{
+	width: 50%;
+	height: 700px;
+	background-color: darkgray;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.boy{
+	width: 300px;
+	height: 240px;
+	background-color: aqua;
+}
+.foto{
+	width: 300px;
+	height: 240px;
+}
+#yt{
+	width: 100%;
+	height:100%;
+	
+}
+#sma{
+	width: 100%;
+	height: 400px;
+	background-color: antiquewhite;
+}
+
+.bok{
+	width: 100%;
+	height: 90px;
+}
+	
+#tos{
+	width: 40%;
+	height: 90px;
+	background-color: fuchsia;
+	margin: auto;
+}
+.bav{
+	width: 20%;
+	margin: auto
+
+}
+
+
+.bik{
+	margin: auto;
+}
+
+	
+}
+#oke{
+	margin-left: 30%;
+}
+.pol{
+	width:45%;
+	height: 100px;
+}
+#kol{
+	width: 45%;
+	height: 100px;
+	background-color: aqua;
+	display: flex;
+	margin: auto;
+	margin-top: 20px;
+	
+}
+#pol{
+	width: 50%;
+	height: 100px;
+}#jay{
+	width: 50%;
+	height: 100px;
+}
+
+
